@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>toDo List</title>
+  <link href="css/style.css">
+</head>
+
+<body>
+  <section>
+    <h1>To<i>Do</i> List!</h1>
+    <input id="toDo" type="text" placehlder="List Item"></input>
+    <button onclick="save()">Add To List</button>
+    <ol id="list">
+    </ol>
+    <p>You have <strong>0 todos</strong> left.</p>
+    <button onclick="clearCompleted()">Clear Completed</button>
+    <button onclick="clearList()">Clear List</button>
+  </section>
+</body>
+<script src="js/main.js"></script>
+
+</html>
