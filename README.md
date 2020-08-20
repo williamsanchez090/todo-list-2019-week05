@@ -1,22 +1,20 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# Simple ToDo List App
+A HTML5, CSS3, and Vanilla Javascript ToDo List app. This app has several features including strike through, clear completed, etc.
 
-### Goal: Build a Simple Todo List
+**Link to project:** https://codepen.io/ShawnBasquiat/full/yLOYbKN
 
-### How to submit your code for review:
+![alt tag](https://i.imgur.com/y7k7g2v.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML5, CSS3, JavaScript
+
+My learning was focused on creative ways to use a toggle in an application.
+
+## Optimizations
+
+Would have liked to optimally cache the list, so it saves each session. Even though I personally liked my use of the string methods to change the class of my paragrapgs, in the midst of the project learned some DOM methods that would have made my code much more efficient.
+
+## Lessons Learned:
+
+Finally got the toggle to work how I expected. I used string methods to circumvent a problem I was having with a certain Dom Method.
