@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+ul li {
+  /* /*cool mouse selector google */
+  cursor: pointer;
+  background: lightgray;
+  font-size: 16px;
+}
+/* make selected items darker when cursor is on them */
+ul li:hover {
+  background: darkgray;
+}
+
+.check {
+  color: white;
+  text-decoration: line-through;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./one.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: list;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  color: maroon;
+  margin-top: 50px;
+}
+
+@keyframes list {
+  0% {
+    background-image: url("./one.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  25% {
+    background-image: url("./two.jfif");
+    background-repeat: no-repeat;
+  }
+  50% {
+    background-image: url("./three.jfif");
+    background-repeat: no-repeat;
+  }
+  100% {
+    background-image: url("./four.jfif");
+    background-repeat: no-repeat;
+  }
+}
+.hidden {
+  text-decoration: line-through;
+}
+.gone {
+  display: none;
+}
