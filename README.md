@@ -1,22 +1,17 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# ✅  Todo List
+![image](https://user-images.githubusercontent.com/101963767/172075460-e7ecc37a-fb55-439f-9372-7108024c36c7.png)
 
-### Goal: Build a Simple Todo List
+## How It's Made:
 
-### How to submit your code for review:
+**Tech used:** HTML5, CSS3, JavaScript
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+My learning was focused on creative ways to use a toggle in an application.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Optimizations
+
+Would have liked to add express and a database to it.
+
+## Lessons Learned:
+
+Finally got the toggle calss and create element to work.
+
